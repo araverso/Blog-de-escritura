@@ -85,6 +85,12 @@ body{
     font-size: 38px;
 }
 
+.articulos__contenido{
+    padding: 6% 15%;
+    display: flex;
+    align-items: center;
+}
+
 .footer{
     display: flex;
     padding: 1.5rem;
