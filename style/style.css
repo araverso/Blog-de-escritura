@@ -108,3 +108,30 @@ body{
     display: flex;
     width: 10%;
 }
+
+@media (max-width: 916px ){
+    .header__titulo{
+        width: auto;
+        padding: 5% 5% 5% 0%;
+    }
+    .header__menu{
+        width: auto;
+        padding: 5% 0% 0% 10%;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+    .presentacion__contenido{
+        flex-direction: column-reverse;
+        padding: 5%;
+        width: auto;
+    }
+    .presentacion__sobremi{
+        flex-direction: column-reverse;
+        padding: 5%;
+        width: auto;
+    }
+    .footer__imagenes{
+        width: auto;
+    }
+}
